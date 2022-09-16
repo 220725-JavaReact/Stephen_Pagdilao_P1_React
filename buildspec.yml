@@ -5,7 +5,7 @@ phases:
     runtime-version: 
       nodejs: 14
 
-  pre-build:
+  pre_build:
     # We are restoring node_modules folder back
     commands:
       - npm install
