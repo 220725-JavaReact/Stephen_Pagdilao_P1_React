@@ -20,3 +20,4 @@ artifacts:
   files:
     - 'Dockerfile'
     - 'build/**/*'
+    - 'nginx/nginx.conf'
