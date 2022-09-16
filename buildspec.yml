@@ -17,5 +17,6 @@ phases:
       - npm run build
 
 artifacts: 
-  - 'Dockerfile'
-  - 'build/**/*'
+  files:
+    - 'Dockerfile'
+    - 'build/**/*'
